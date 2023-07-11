@@ -16,9 +16,9 @@ const sum = (param1,param2) => {
         )
 }
 
-const init=()=>{
+const Init =()=>{
     return( intro("Testing User") )
 }
 
 const root = ReactDom.createRoot( document.getElementById('root') )
-root.render( init() );
+root.render( <Init /> );
